@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# steps to run locally
+
+python3 -m http.server 8000
+
+go to local host at port 8000
