@@ -22,7 +22,8 @@
 
   .project-grid,
   .skills-grid,
-  .cert-grid {
+  .cert-grid,
+  .education-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -47,6 +48,7 @@
   .project-grid,
   .skills-grid,
   .cert-grid,
+  .education-grid,
   .cert-card {
     grid-template-columns: 1fr;
   }

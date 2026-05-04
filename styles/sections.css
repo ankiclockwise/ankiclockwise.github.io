@@ -121,6 +121,18 @@ section {
   stroke-width: 1.8;
 }
 
+.logo-mark.image-logo {
+  padding: 7px;
+  background: #fff;
+}
+
+.logo-mark.image-logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
 .timeline-meta,
 .card-meta {
   color: var(--muted);
@@ -229,4 +241,87 @@ section {
   grid-template-columns: 54px minmax(0, 1fr);
   gap: 14px;
   align-items: start;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.education-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: 0 12px 35px rgba(29, 36, 51, 0.06);
+  overflow: hidden;
+}
+
+.education-card summary {
+  min-height: 280px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 18px;
+  padding: 28px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.education-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.education-logo-tile {
+  min-height: 190px;
+  display: grid;
+  place-items: center;
+}
+
+.education-logo-tile img {
+  max-width: min(78%, 280px);
+  max-height: 170px;
+  display: block;
+  object-fit: contain;
+}
+
+.education-card-title {
+  display: grid;
+  gap: 2px;
+}
+
+.education-card-title span {
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.education-card-title strong {
+  font-size: 1.14rem;
+  line-height: 1.25;
+}
+
+.education-details {
+  display: grid;
+  gap: 16px;
+  padding: 0 28px 28px;
+}
+
+.education-details div {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.education-details span {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.education-details p {
+  margin-bottom: 0;
+  color: #424b58;
 }

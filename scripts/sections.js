@@ -54,6 +54,37 @@ function timelineSection(id, kicker, title, intro, entries, label) {
   `;
 }
 
+function educationSection(education) {
+  return `
+    <section id="education" aria-labelledby="education-title">
+      ${sectionHeading("Education", "Education.", "Click a university tile to see courses, GPA, and campus work.")}
+      <div class="education-grid">
+        ${education.map((item) => `
+          <details class="education-card">
+            <summary>
+              <span class="education-logo-tile">
+                <img src="${item.logo}" alt="${item.logoAlt}">
+              </span>
+              <span class="education-card-title">
+                <span>${item.degree}</span>
+                <strong>${item.institution}</strong>
+              </span>
+            </summary>
+            <div class="education-details">
+              ${item.details.map(([label, value]) => `
+                <div>
+                  <span>${label}</span>
+                  <p>${value}</p>
+                </div>
+              `).join("")}
+            </div>
+          </details>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
 function projectsSection(projects) {
   return `
     <section id="projects" aria-labelledby="projects-title">

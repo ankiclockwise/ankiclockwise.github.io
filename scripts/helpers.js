@@ -16,9 +16,13 @@ function logoMark(iconName, label) {
 }
 
 function timelineItem(item, label) {
+  const mark = item.logo
+    ? `<div class="logo-mark image-logo"><img src="${item.logo}" alt="${item.logoAlt || label}"></div>`
+    : logoMark(item.icon, label);
+
   return `
     <article class="timeline-item">
-      ${logoMark(item.icon, label)}
+      ${mark}
       <div>
         <p class="timeline-meta">${item.meta}</p>
         <h3>${item.title}</h3>

@@ -20,7 +20,7 @@ function renderPortfolio() {
     heroSection(data),
     aboutSection(data),
     timelineSection("experience", "Experience", "Roles and impact.", "Company logo placeholders are styled consistently here. Send the company names and I can replace these with official local assets.", data.experience, "Company logo placeholder"),
-    timelineSection("education", "Education", "Training and foundation.", "Institution logos can sit in the same mark system as experience, keeping the page polished even before final assets are added.", data.education, "Institution logo placeholder"),
+    educationSection(data.education),
     projectsSection(data.projects),
     skillsSection(data.skills),
     certificationsSection(data.certifications),
