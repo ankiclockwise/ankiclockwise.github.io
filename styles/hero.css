@@ -1,0 +1,125 @@
+.hero {
+  min-height: calc(100vh - 66px);
+  display: grid;
+  grid-template-columns: minmax(0, 1.24fr) minmax(320px, 0.76fr);
+  gap: 48px;
+  align-items: center;
+  padding: 74px 0 50px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  color: var(--teal-dark);
+  font-size: 0.83rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 32px;
+  height: 2px;
+  background: var(--coral);
+}
+
+.lead {
+  max-width: 720px;
+  color: #3f4856;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+}
+
+.hero-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.portrait-panel {
+  min-height: 350px;
+  padding: 26px;
+  display: grid;
+  align-content: space-between;
+  background:
+    linear-gradient(145deg, rgba(23, 107, 103, 0.92), rgba(51, 92, 69, 0.86)),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.12) 0 1px, transparent 1px 18px);
+  color: #fff;
+}
+
+.portrait-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  padding: 7px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.13);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f3c74f;
+}
+
+.monogram {
+  width: min(58vw, 220px);
+  height: min(58vw, 220px);
+  display: grid;
+  place-items: center;
+  justify-self: center;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32);
+  font-size: clamp(4rem, 12vw, 7.5rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.snapshot {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+  background: #fff;
+}
+
+.snapshot div {
+  padding: 18px;
+  border-right: 1px solid var(--line);
+}
+
+.snapshot div:last-child {
+  border-right: 0;
+}
+
+.snapshot strong {
+  display: block;
+  font-size: 1.35rem;
+  line-height: 1.1;
+}
+
+.snapshot span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}

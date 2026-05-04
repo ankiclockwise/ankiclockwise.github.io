@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="One-page portfolio for Ankita Dalvi, featuring experience, projects, skills, education, certifications, and contact details.">
+  <title>Ankita Dalvi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data/profile.js" defer></script>
+  <script src="data/about.js" defer></script>
+  <script src="data/experience.js" defer></script>
+  <script src="data/education.js" defer></script>
+  <script src="data/projects/project-one.js" defer></script>
+  <script src="data/projects/project-two.js" defer></script>
+  <script src="data/projects/project-three.js" defer></script>
+  <script src="data/projects.js" defer></script>
+  <script src="data/skills.js" defer></script>
+  <script src="data/certifications.js" defer></script>
+  <script src="data/portfolio.js" defer></script>
+  <script src="scripts/icons.js" defer></script>
+  <script src="scripts/helpers.js" defer></script>
+  <script src="scripts/sections.js" defer></script>
+  <script src="scripts/render.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>Welcome to my portfolio!</p>
+  <div class="site-shell">
+    <header class="topbar">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Back to top">
+          <span class="brand-mark" data-brand-mark>AD</span>
+          <span data-brand-name>Ankita Dalvi</span>
+        </a>
+        <div class="nav-links" data-nav></div>
+      </nav>
+    </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Project 1</li>
-    <li>Project 2</li>
-  </ul>
+    <main id="top" data-app></main>
 
-  <h2>Contact</h2>
-  <p>Email: your@email.com</p>
+    <footer class="footer">
+      <span data-footer>Copyright 2026 Ankita Dalvi. Built as a fast, one-page portfolio.</span>
+    </footer>
+  </div>
 </body>
 </html>
