@@ -20,11 +20,17 @@
     padding-top: 52px;
   }
 
+  .hero-visual {
+    min-height: 360px;
+  }
+
   .project-grid,
-  .skills-grid,
-  .cert-grid,
-  .education-grid {
+  .skills-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -43,27 +49,47 @@
     gap: 28px;
   }
 
-  .snapshot,
   .timeline-item,
   .project-grid,
   .skills-grid,
-  .cert-grid,
-  .education-grid,
-  .cert-card {
+  .cert-grid {
     grid-template-columns: 1fr;
   }
 
-  .snapshot div {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
+  .cert-card {
+    grid-template-rows: minmax(190px, auto) auto;
   }
 
-  .snapshot div:last-child {
-    border-bottom: 0;
+  .cert-image {
+    min-height: 190px;
   }
 
   .timeline-item {
     gap: 12px;
+  }
+
+  .experience-logo {
+    width: 142px;
+    height: 142px;
+  }
+
+  .experience-card-body {
+    padding-top: 106px;
+  }
+
+  .education-logo {
+    width: 126px;
+    height: 126px;
+  }
+
+  .hero-visual {
+    min-height: 300px;
+  }
+
+  .hero-status-card {
+    position: static;
+    width: 100%;
+    margin-top: -24px;
   }
 
   .contact-link {
@@ -74,4 +100,5 @@
   .contact-link .contact-value {
     text-align: left;
   }
+
 }

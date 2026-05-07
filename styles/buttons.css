@@ -13,9 +13,9 @@
   justify-content: center;
   gap: 9px;
   padding: 11px 16px;
-  border: 1px solid var(--ink);
-  border-radius: var(--radius);
-  background: var(--ink);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
   color: #fff;
   font-weight: 800;
   transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
@@ -24,18 +24,18 @@
 .button:hover,
 .button:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px rgba(29, 36, 51, 0.18);
+  box-shadow: 0 14px 28px rgba(85, 25, 139, 0.22);
   outline: none;
 }
 
 .button.secondary {
   background: transparent;
-  color: var(--ink);
+  color: var(--accent);
 }
 
 .button.secondary:hover,
 .button.secondary:focus-visible {
-  background: #fff;
+  background: var(--accent-soft);
 }
 
 .button svg {

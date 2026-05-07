@@ -2,12 +2,11 @@ window.portfolioContent = window.portfolioContent || {};
 window.portfolioContent.projectFiles = window.portfolioContent.projectFiles || [];
 
 window.portfolioContent.projectFiles.push({
-  meta: "Featured Project",
-  title: "Project One",
-  description: "Describe the problem, what you built, and why it mattered in two or three crisp sentences.",
-  tags: ["React", "Node", "API"],
+  meta: "Cloud Networking",
+  title: "IP Management through Serverless Function",
+  description: "Enhanced IP range management by mapping CIDR blocks to designated cloud services, resolving visibility gaps within VPC in Google Cloud. Recognized as one of the top 20 ideas out of 3500+ at Google's Cloud Fest Hackathon 2022.",
+  tags: ["Python", "Networks", "Cloud"],
   links: [
-    ["Code", "https://github.com/"],
-    ["Demo", "#"]
+    ["Details", "#"]
   ]
 });

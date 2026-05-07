@@ -1,20 +1,20 @@
 .contact-panel.primary {
-  background: var(--ink);
-  color: #fff;
+  background: var(--accent-soft);
+  color: var(--ink);
 }
 
 .contact-panel.primary p {
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--muted);
 }
 
 .contact-panel.primary .button.secondary {
-  border-color: rgba(255, 255, 255, 0.56);
-  color: #fff;
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .contact-panel.primary .button.secondary:hover,
 .contact-panel.primary .button.secondary:focus-visible {
-  background: rgba(255, 255, 255, 0.12);
+  background: #fff;
 }
 
 .contact-list {

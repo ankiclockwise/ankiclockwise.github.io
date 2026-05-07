@@ -1,15 +1,15 @@
 window.portfolioContent = window.portfolioContent || {};
 
 window.portfolioContent.about = {
-  title: "Clear thinking, shipped cleanly.",
-  intro: "Use this section for a tight personal summary. The page is designed so your story, proof, and contact paths all live in one place.",
+  title: "Cloud infrastructure, DevOps, and security engineering.",
+  intro: "I build reliable cloud systems, automate infrastructure at scale, and design identity/security workflows that reduce operational risk.",
   paragraphs: [
-    "I'm Ankita, a builder who likes turning ambiguous ideas into practical, polished systems. Add your real bio here: your current focus, the kind of problems you enjoy, your strongest technical lanes, and the outcomes you have produced.",
-    "Keep this concise. The best version reads like a confident human introduction, not a resume paragraph."
+    "I'm Ankita Dalvi, a software engineer focused on cloud infrastructure, IAM/security, DevOps automation, and data platform migration. At Splunk, I built passwordless authentication and Okta/Terraform automation supporting critical identity tenants. At Datametica, I worked on GCP/AWS infrastructure, BigQuery migration, CI/CD, and security architecture.",
+    "My work spans Python, Terraform, Google Cloud, AWS, Okta, BigQuery, CI/CD, Linux, and infrastructure as code. I am pursuing an M.S. in Computer Science at University of Massachusetts Amherst and am open to relocation."
   ],
   facts: [
-    ["Focus", "Software Engineering"],
-    ["Location", "New York, NY"],
-    ["Interests", "AI, data, product systems"]
+    ["Focus", "Cloud Infra, DevOps, IAM/Security"],
+    ["Location", "MA, open to relocation"],
+    ["Strengths", "Terraform, Python, GCP, AWS, Okta"]
   ]
 };

@@ -2,12 +2,11 @@ window.portfolioContent = window.portfolioContent || {};
 window.portfolioContent.projectFiles = window.portfolioContent.projectFiles || [];
 
 window.portfolioContent.projectFiles.push({
-  meta: "Product System",
-  title: "Project Three",
-  description: "Use this slot for a product, open-source contribution, hackathon build, or client-facing workflow.",
-  tags: ["TypeScript", "Cloud", "UX"],
+  meta: "MLOps",
+  title: "Cryptocurrency Price Prediction on Vertex AI",
+  description: "Streamlined the Vertex AI workflow from data ingestion to model training, deployment, and serving endpoints. Achieved Runner Up at Capgemini Tech Challenge 2021 among 240,000+ participants globally.",
+  tags: [ "Python", "GitOps", "Docker", "Bash"],
   links: [
-    ["Code", "https://github.com/"],
-    ["Live", "#"]
+    ["Details", "#"]
   ]
 });

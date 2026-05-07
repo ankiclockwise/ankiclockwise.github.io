@@ -1,11 +1,10 @@
-function sectionHeading(kicker, title, intro) {
+function sectionHeading(kicker, title) {
   return `
     <div class="section-heading">
       <div>
         <p class="section-kicker">${kicker}</p>
         <h2>${title}</h2>
       </div>
-      <p class="section-intro">${intro}</p>
     </div>
   `;
 }
