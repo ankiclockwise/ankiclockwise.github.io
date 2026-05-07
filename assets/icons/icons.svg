@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="arrow" viewBox="0 0 24 24" fill="none">
+    <path d="M7 7h10v10M7 17 17 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="github" viewBox="0 0 24 24">
+    <path fill="#181717" d="M12 2.5c-5.24 0-9.5 4.26-9.5 9.5 0 4.2 2.72 7.75 6.5 9 .48.09.66-.2.66-.46v-1.62c-2.64.58-3.2-1.12-3.2-1.12-.44-1.1-1.06-1.4-1.06-1.4-.86-.6.07-.58.07-.58.96.07 1.46.98 1.46.98.84 1.45 2.22 1.03 2.76.79.08-.62.33-1.03.6-1.27-2.1-.24-4.32-1.05-4.32-4.68 0-1.03.37-1.88.98-2.54-.1-.24-.43-1.2.09-2.5 0 0 .8-.26 2.62.98.76-.21 1.57-.32 2.38-.32.8 0 1.61.11 2.37.32 1.82-1.24 2.62-.98 2.62-.98.52 1.3.19 2.26.09 2.5.61.66.98 1.51.98 2.54 0 3.64-2.22 4.43-4.34 4.67.34.3.65.88.65 1.78v2.64c0 .26.17.56.66.46a9.5 9.5 0 0 0 6.5-9c0-5.24-4.26-9.5-9.5-9.5Z"/>
+  </symbol>
+
+  <symbol id="linkedin" viewBox="0 0 24 24">
+    <rect width="24" height="24" rx="4" fill="#0A66C2"/>
+    <path fill="#fff" d="M7.06 9.78h3.02V18H7.06V9.78Zm1.52-3.9c.96 0 1.56.63 1.58 1.45 0 .8-.62 1.45-1.6 1.45-.94 0-1.56-.65-1.56-1.45 0-.82.64-1.45 1.58-1.45ZM11.4 9.78h2.9v1.12h.04c.4-.76 1.38-1.32 2.54-1.32 1.92 0 3.36 1.25 3.36 3.94V18h-3.02v-4.16c0-1.1-.4-1.85-1.4-1.85-.76 0-1.2.51-1.4 1-.07.17-.1.42-.1.66V18H11.4V9.78Z"/>
+  </symbol>
+
+  <symbol id="company" viewBox="0 0 24 24" fill="none">
+    <path d="M4 20V7l8-4 8 4v13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9 20v-7h6v7M8 9h.01M12 9h.01M16 9h.01" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="layers" viewBox="0 0 24 24" fill="none">
+    <path d="M12 3 3 8l9 5 9-5-9-5Z" stroke="currentColor" stroke-linejoin="round"/>
+    <path d="m5 11 7 4 7-4M5 15l7 4 7-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="education" viewBox="0 0 24 24" fill="none">
+    <path d="m3 8 9-4 9 4-9 4-9-4Z" stroke="currentColor" stroke-linejoin="round"/>
+    <path d="M7 10v5c2.8 2 7.2 2 10 0v-5M20 9v6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="award" viewBox="0 0 24 24" fill="none">
+    <path d="M8 13 4 17l3 1 1 3 4-4M16 13l4 4-3 1-1 3-4-4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="12" cy="9" r="5" stroke="currentColor"/>
+    <path d="m10 9 1.4 1.4L15 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="shield" viewBox="0 0 24 24" fill="none">
+    <path d="M12 3 4 7v5c0 4.4 3.1 7.5 8 9 4.9-1.5 8-4.6 8-9V7l-8-4Z" stroke="currentColor" stroke-linejoin="round"/>
+    <path d="m9 12 2 2 4-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="mail" viewBox="0 0 24 24" fill="none">
+    <rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.8"/>
+    <path d="m5 8 7 5 7-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <symbol id="globe" viewBox="0 0 24 24" fill="none">
+    <path d="M12 3v18M5 8h14M5 16h14" stroke="currentColor" stroke-linecap="round"/>
+    <path d="M7 4c2.2 2.2 3.3 4.9 3.3 8S9.2 17.8 7 20M17 4c-2.2 2.2-3.3 4.9-3.3 8s1.1 5.8 3.3 8" stroke="currentColor" stroke-linecap="round"/>
+    <circle cx="12" cy="12" r="9" stroke="currentColor"/>
+  </symbol>
+</svg>

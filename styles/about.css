@@ -1,0 +1,46 @@
+.about-grid,
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(280px, 0.38fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.text-panel,
+.contact-panel {
+  padding: 26px;
+}
+
+.text-panel {
+  font-size: 1.06rem;
+}
+
+.side-panel {
+  padding: 22px;
+  display: grid;
+  gap: 14px;
+}
+
+.fact {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+
+.fact:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.fact span {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 750;
+}
+
+.fact strong {
+  text-align: right;
+  font-size: 0.95rem;
+}
