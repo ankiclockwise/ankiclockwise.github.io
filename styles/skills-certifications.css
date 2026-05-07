@@ -1,0 +1,84 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.skill-group,
+.cert-card {
+  padding: 20px;
+  min-width: 0;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.skill-list span {
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  background: var(--panel-soft);
+  color: #3f4856;
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.cert-card {
+  display: grid;
+  grid-template-rows: minmax(220px, auto) auto;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.cert-image {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+  background: var(--panel-soft);
+}
+
+.cert-image img {
+  max-width: min(76%, 190px);
+  max-height: 190px;
+  display: block;
+  object-fit: contain;
+}
+
+.cert-card-content {
+  display: grid;
+  gap: 7px;
+}
+
+.cert-card h3 {
+  margin-bottom: 0;
+  font-size: 1.12rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.cert-issuer-link {
+  width: fit-content;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 750;
+  border-bottom: 1px solid currentColor;
+}
+
+.cert-issuer-link:hover,
+.cert-issuer-link:focus-visible {
+  color: var(--accent);
+  outline: none;
+}
