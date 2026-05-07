@@ -1,13 +1,11 @@
-.about-grid,
-.contact-grid {
+.about-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.82fr) minmax(280px, 0.38fr);
   gap: 18px;
   align-items: stretch;
 }
 
-.text-panel,
-.contact-panel {
+.text-panel {
   padding: 26px;
 }
 

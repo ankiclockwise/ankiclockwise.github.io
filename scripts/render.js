@@ -5,8 +5,7 @@ const navItems = [
   ["Projects", "projects"],
   ["Publications", "publications"],
   ["Skills", "skills"],
-  ["Certifications", "certifications"],
-  ["Contact", "contact"]
+  ["Certifications", "certifications"]
 ];
 
 function renderPortfolio() {
@@ -26,8 +25,9 @@ function renderPortfolio() {
     publicationsSection(data.publications),
     skillsSection(data.skills),
     certificationsSection(data.certifications),
-    contactSection(data)
+    closingNoteSection()
   ].join("");
 
   initExperienceInteractions();
+  initProjectInteractions();
 }

@@ -3,6 +3,7 @@ const icon = (name, className = "") => `<svg class="${className}" aria-hidden="t
 
 window.portfolioIcons = {
   arrow: icon("arrow"),
+  externalLink: icon("external-link"),
   github: icon("github", "brand-icon"),
   linkedin: icon("linkedin", "brand-icon"),
   company: icon("company"),

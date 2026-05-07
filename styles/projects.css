@@ -54,3 +54,54 @@
   font-weight: 850;
   border-bottom: 1px solid currentColor;
 }
+
+.project-card[hidden] {
+  display: none;
+}
+
+.project-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+.project-more-button {
+  min-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 850;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+.project-more-button:hover,
+.project-more-button:focus-visible {
+  transform: translateY(-2px);
+  background: var(--accent-soft);
+  box-shadow: 0 14px 28px rgba(85, 25, 139, 0.12);
+  outline: none;
+}
+
+.project-more-button[hidden] {
+  display: none;
+}
+
+.project-more-arrow {
+  width: 12px;
+  height: 12px;
+  border-right: 3px solid currentColor;
+  border-bottom: 3px solid currentColor;
+  transform: translateY(-3px) rotate(45deg);
+  transition: transform 180ms ease;
+}
+
+.project-more-button[aria-expanded="true"] .project-more-arrow {
+  transform: translateY(3px) rotate(225deg);
+}
