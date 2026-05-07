@@ -4,7 +4,7 @@ function publicationsSection(publications) {
       ${sectionHeading("Research", "Publications.")}
       <div class="publication-list">
         ${publications.map((publication) => `
-          <a class="publication-item" href="${publication.url}" ${publication.url === "#" ? 'aria-disabled="true"' : 'target="_blank" rel="noreferrer"'} aria-label="Open ${publication.venue} publication">
+          <a class="publication-item" href="${publication.url}" ${externalAttrs(publication.url)} aria-label="Open ${publication.venue} publication">
             <span class="publication-external" aria-hidden="true">${window.portfolioIcons.externalLink}</span>
             <span class="publication-image">
               <img src="${publication.image}" alt="${publication.imageAlt}">

@@ -14,7 +14,7 @@ function projectsSection(projects) {
             </div>
             <div>
               <div class="tags">${project.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}</div>
-              <div class="card-links">${project.links.map(([label, url]) => `<a href="${url}" ${url === "#" ? 'aria-disabled="true"' : 'target="_blank" rel="noreferrer"'}>${label}</a>`).join("")}</div>
+              <div class="card-links">${project.links.map(([label, url]) => `<a href="${url}" ${externalAttrs(url)}>${label}</a>`).join("")}</div>
             </div>
           </article>
         `).join("")}
