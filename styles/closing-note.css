@@ -1,0 +1,65 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.brand-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.closing-note {
+  max-width: 980px;
+  margin: 36px auto 0;
+  padding: 52px 0 18px;
+  color: var(--ink);
+  text-align: center;
+}
+
+.closing-note::before {
+  content: "";
+  width: 74px;
+  height: 5px;
+  display: block;
+  margin: 0 auto 24px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.closing-note p {
+  margin-bottom: 14px;
+  color: #424b58;
+  font-size: clamp(1.25rem, 2.6vw, 1.75rem);
+  line-height: 1.35;
+}
+
+.closing-note span {
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.closing-note strong {
+  color: var(--ink);
+  font-size: 1.08em;
+  font-weight: 900;
+}
+
+.closing-note a {
+  color: var(--accent);
+  font-weight: 900;
+  border-bottom: 3px solid currentColor;
+}
+
+.closing-note a:hover,
+.closing-note a:focus-visible {
+  color: var(--ink);
+  outline: none;
+}

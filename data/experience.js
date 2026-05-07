@@ -32,10 +32,10 @@ window.portfolioContent.experience = [
     company: "Datametica",
     logo: "assets/images/dm.jpeg",
     logoAlt: "Datametica logo",
-    role: "DevOps Engineer",
+    role: "DevOps Engineer II",
     dates: "Feb 2021 - Dec 2023",
     theme: "#e2592f",
-    description: "Delivered cloud infrastructure, network design, DevOps automation, and data warehouse migration work across GCP and AWS.",
+    description: "Delivered cloud infrastructure, network design, DevOps automation for TB-scale data warehouse migration to GCP and AWS.",
     bullets: [
       "Implemented cloud infrastructure and network design for a 100 TB on-premise data warehouse migration to BigQuery, featured in Google's Blog.",
       "Led and trained advanced security work including VPC Service Controls, Org Policy, and Cloud Identity.",

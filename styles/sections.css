@@ -20,25 +20,21 @@ section {
 
 .text-panel,
 .side-panel,
-.timeline-item,
 .project-card,
 .skill-group,
-.cert-card,
-.contact-panel {
+.cert-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 14px 36px rgba(85, 25, 139, 0.08);
 }
 
-.timeline-meta,
 .card-meta {
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 750;
 }
 
-.timeline-item h3,
 .project-card h3,
 .skill-group h3,
 .cert-card h3 {

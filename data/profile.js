@@ -7,7 +7,7 @@ window.portfolioContent.profile = {
   highlightedTitle: "Ankita",
   intro: "Cloud infrastructure, DevOps, and IAM/security engineer with experience building automation at Splunk and Datametica, plus research and projects across serverless systems, MLOps, and cloud migration.",
   heroImage: "assets/images/professional_covershot.jpeg",
-  status: "Open to opportunities and happy to relocate!",
+  status: "Open to opportunities starting Aug 2026",
   contactForm: {
     label: "Get in touch with me",
     url: "https://forms.gle/JRGz6Y1BUhvB2icb6"

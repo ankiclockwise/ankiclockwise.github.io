@@ -83,4 +83,5 @@ main {
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 650;
+  text-align: center;
 }
