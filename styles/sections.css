@@ -23,8 +23,7 @@ section {
 .timeline-item,
 .project-card,
 .skill-group,
-.cert-card,
-.contact-panel {
+.cert-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.82);

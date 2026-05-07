@@ -10,8 +10,7 @@
 
   .hero,
   .section-heading,
-  .about-grid,
-  .contact-grid {
+  .about-grid {
     grid-template-columns: 1fr;
   }
 
@@ -90,15 +89,6 @@
     position: static;
     width: 100%;
     margin-top: -24px;
-  }
-
-  .contact-link {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .contact-link .contact-value {
-    text-align: left;
   }
 
 }

@@ -15,7 +15,7 @@ window.portfolioContent.education = [
     ]
   },
   {
-    logo: "assets/images/sppu2.png",
+    logo: "assets/images/sppu.png",
     logoAlt: "Savitribai Phule Pune University logo",
     institution: "Savitribai Phule Pune University",
     degree: "Bachelor of Engineering - Computer Engineering",
